@@ -42,7 +42,6 @@ if (login_flag==1)
 else{
         cout<<setw(40)<<left<<"SERVICE COST:"<<right<<service_bill<<endl;
 }
-cin.ignore();//clear buffer
 cout<<"PRESS ENTER TO CONTINUE PAYMENT";
 getchar();
 
